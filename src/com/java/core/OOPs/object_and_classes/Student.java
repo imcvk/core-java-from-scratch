@@ -1,6 +1,6 @@
 package com.java.core.OOPs.object_and_classes;
 
-public class Student {
+public class Student implements Cloneable{
 	int rollNo;
 	String name;
 
@@ -22,5 +22,8 @@ public class Student {
 	public void printDetails() {
 		System.out.println("Roll Number is:" + rollNo);
 		System.out.println("Name is:" + name);
+	}
+	public Object clone()throws CloneNotSupportedException{
+		return super.clone();
 	}
 }
