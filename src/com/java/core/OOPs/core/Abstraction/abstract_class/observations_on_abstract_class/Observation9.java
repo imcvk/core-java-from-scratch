@@ -21,3 +21,5 @@ public class Observation9 extends Observation9_Child1 {
     observation9.print();
   }
 }
+
+
