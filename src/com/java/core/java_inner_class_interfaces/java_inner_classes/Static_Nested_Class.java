@@ -1,4 +1,4 @@
-package com.java.core.java_inner_class;
+package com.java.core.java_inner_class_interfaces.java_inner_classes;
 class StaticNestedDemoOuter {
   static class StaticNestedDemo {
     void staticNestedDemoClassMethod() {

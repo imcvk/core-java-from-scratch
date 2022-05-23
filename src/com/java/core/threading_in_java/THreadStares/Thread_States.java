@@ -1,4 +1,4 @@
-package com.java.core.threading_in_java;
+package com.java.core.threading_in_java.THreadStares;
 class ABC implements Runnable {
   public void run() {
     try {
