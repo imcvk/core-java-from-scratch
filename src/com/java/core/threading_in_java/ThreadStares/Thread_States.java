@@ -1,4 +1,4 @@
-package com.java.core.threading_in_java.THreadStares;
+package com.java.core.threading_in_java.ThreadStares;
 class ABC implements Runnable {
   public void run() {
     try {
@@ -22,7 +22,7 @@ public class Thread_States implements Runnable {
   public static Thread_States obj;
 
   // main method
-  public static void main(String argvs[]) {
+  public static void main(String args[]) {
 // creating an object of the class ThreadState
     obj = new Thread_States();
     t1 = new Thread(obj);

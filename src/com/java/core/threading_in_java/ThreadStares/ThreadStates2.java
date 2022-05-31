@@ -1,4 +1,4 @@
-package com.java.core.threading_in_java.THreadStares;
+package com.java.core.threading_in_java.ThreadStares;
 public class ThreadStates2 implements Runnable {
   public static ThreadStates2 threadStates2;
   public static Thread thread;
